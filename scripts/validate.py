@@ -57,26 +57,22 @@ def main():
     for file_path in files:
         errors = validate_regulation(file_path)
         if errors:
-            print(f"
-❌ {file_path}:")
+            print(f"❌ {file_path}:")
             for error in errors:
                 print(f"   - {error}")
             total_errors += len(errors)
         else:
             print(f"✅ {file_path}")
 
-    print(f"
-{'='*50}")
+    print(f"{'='*50}")
     print(f"Files checked: {len(files)}")
     print(f"Errors found: {total_errors}")
 
     if total_errors > 0:
-        print("
-⚠️  Fix errors before committing!")
+        print("⚠️  Fix errors before committing!")
         sys.exit(1)
     else:
-        print("
-🎉 All files valid!")
+        print("🎉 All files valid!")
 
 if __name__ == "__main__":
     main()

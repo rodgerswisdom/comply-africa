@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 ComplyAfrica Regulation Extractor
-Usage: python extract_regulation.py --file /path/to/pdf --type mer --country KE
+Usage: python extract_regulation.py --file /path/to/pdf --type mer --country KE --regulator CBK
 """
 
 import argparse
