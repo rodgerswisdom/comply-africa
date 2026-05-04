@@ -1,0 +1,109 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ComplyAfrica Regulation Document",
+  "type": "object",
+  "required": [
+    "document_metadata",
+    "extracted_obligations"
+  ],
+  "properties": {
+    "document_metadata": {
+      "type": "object",
+      "required": [
+        "id",
+        "title",
+        "document_type",
+        "issuing_body",
+        "assessed_country",
+        "publication_date"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z]+-[a-z]+-[a-z]+-[0-9]{4}$"
+        },
+        "title": {
+          "type": "string"
+        },
+        "document_type": {
+          "type": "string",
+          "enum": [
+            "guideline",
+            "circular",
+            "act",
+            "mutual_evaluation_report",
+            "directive",
+            "regulation"
+          ]
+        },
+        "issuing_body": {
+          "type": "string"
+        },
+        "assessed_country": {
+          "type": "string",
+          "pattern": "^[A-Z]{2}$"
+        },
+        "publication_date": {
+          "type": "string",
+          "format": "date"
+        },
+        "url": {
+          "type": "string"
+        }
+      }
+    },
+    "extracted_obligations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "obligation_id",
+          "title",
+          "text",
+          "applies_to"
+        ],
+        "properties": {
+          "obligation_id": {
+            "type": "string"
+          },
+          "source_r": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "text": {
+            "type": "string"
+          },
+          "applies_to": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "implementation_status": {
+            "type": "string",
+            "enum": [
+              "compliant",
+              "largely_compliant",
+              "partially_compliant",
+              "non_compliant"
+            ]
+          },
+          "priority": {
+            "type": "string",
+            "enum": [
+              "low",
+              "medium",
+              "high",
+              "critical"
+            ]
+          },
+          "deadline": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

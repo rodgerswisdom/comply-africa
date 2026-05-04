@@ -1,0 +1,687 @@
+{
+  "document_metadata": {
+    "id": "fatf-mer-kenya-2022",
+    "title": "Anti-Money Laundering and Counter-Terrorist Financing Measures - Kenya",
+    "document_type": "mutual_evaluation_report",
+    "issuing_body": "FATF",
+    "assessed_country": "KE",
+    "assessed_country_name": "Kenya",
+    "publication_date": "2022-09-01",
+    "assessment_date": "2022-03-01",
+    "next_evaluation_due": "2027-03-01",
+    "language": "en",
+    "url": "https://www.fatf-gafi.org/publications/mutualevaluations/documents/mer-kenya-2022.html",
+    "pages": 250,
+    "file_size_mb": 5.2
+  },
+  "executive_summary": {
+    "overall_risk": "high",
+    "key_findings": [
+      "Kenya faces significant ML/TF risks from corruption, drug trafficking, human trafficking, and wildlife crime",
+      "Real estate sector is major vulnerability for money laundering",
+      "Mobile money (M-Pesa) presents unique risks due to high volume and velocity",
+      "DNFBP sector (lawyers, accountants, real estate agents) largely unsupervised",
+      "FRC (Financial Reporting Centre) has improved but lacks analytical capacity",
+      "Beneficial ownership transparency is a critical gap"
+    ],
+    "effectiveness_rating": "moderate",
+    "technical_compliance_rating": "largely_compliant",
+    "priority_actions": [
+      "Improve beneficial ownership transparency for legal persons and arrangements",
+      "Enhance supervision of DNFBPs",
+      "Strengthen FRC analytical and dissemination capabilities",
+      "Improve TF/PF targeted financial sanctions implementation",
+      "Enhance investigation and prosecution of ML/TF cases"
+    ]
+  },
+  "immediate_outcomes": {
+    "io_1": {
+      "title": "Risk, Policy and Coordination",
+      "rating": "moderate",
+      "score": 3,
+      "summary": "Kenya has a good understanding of its ML/TF risks but coordination between agencies needs improvement",
+      "strengths": [
+        "National Risk Assessment completed and updated",
+        "National AML/CFT Strategy in place",
+        "Inter-agency cooperation framework exists"
+      ],
+      "weaknesses": [
+        "Limited operational coordination between law enforcement and FIU",
+        "Private sector not sufficiently involved in risk assessment",
+        "TF risk understanding less developed than ML risk"
+      ],
+      "recommendations": [
+        "Enhance operational coordination mechanisms",
+        "Involve private sector in NRA updates",
+        "Develop comprehensive TF risk assessment"
+      ]
+    },
+    "io_2": {
+      "title": "International Cooperation",
+      "rating": "moderate",
+      "score": 3,
+      "summary": "Kenya provides constructive international cooperation but delays in MLA requests",
+      "strengths": [
+        "Good informal cooperation between FIUs",
+        "Active in regional bodies (EAMLG, EAPCCO)",
+        "Extradition treaties with key partners"
+      ],
+      "weaknesses": [
+        "MLA requests take too long",
+        "Limited proactive intelligence sharing",
+        "Language barriers in some cooperation requests"
+      ],
+      "recommendations": [
+        "Streamline MLA procedures",
+        "Establish dedicated international cooperation unit",
+        "Improve timeliness of responses"
+      ]
+    },
+    "io_3": {
+      "title": "Supervision",
+      "rating": "moderate",
+      "score": 3,
+      "summary": "CBK and CMA have robust supervision but DNFBP supervision is weak",
+      "strengths": [
+        "CBK risk-based supervision framework well-developed",
+        "Regular onsite and offsite examinations",
+        "Sanctions imposed for non-compliance"
+      ],
+      "weaknesses": [
+        "DNFBPs largely unsupervised",
+        "Limited resources for supervision of smaller institutions",
+        "Inconsistent application of sanctions"
+      ],
+      "recommendations": [
+        "Establish DNFBP supervisory framework",
+        "Increase supervisory resources",
+        "Harmonize sanctions across sectors"
+      ]
+    },
+    "io_4": {
+      "title": "Preventive Measures",
+      "rating": "moderate",
+      "score": 3,
+      "summary": "FIs have good understanding but implementation gaps remain, especially for new technologies",
+      "strengths": [
+        "Large banks have sophisticated AML programs",
+        "Customer risk profiling widely implemented",
+        "Transaction monitoring systems in place at major institutions"
+      ],
+      "weaknesses": [
+        "Smaller institutions lack resources for effective monitoring",
+        "Mobile money agents not adequately supervised",
+        "CDD for occasional customers weak",
+        "Beneficial ownership verification inadequate"
+      ],
+      "recommendations": [
+        "Enhance agent network supervision",
+        "Strengthen occasional customer CDD",
+        "Improve BO verification mechanisms",
+        "Provide guidance on new technologies"
+      ]
+    },
+    "io_5": {
+      "title": "Legal Persons and Arrangements",
+      "rating": "low",
+      "score": 2,
+      "summary": "Major gaps in beneficial ownership transparency",
+      "strengths": [
+        "Company registration system exists (eCitizen)",
+        "Basic BO requirements in law"
+      ],
+      "weaknesses": [
+        "BO information not verified",
+        "No requirement to hold BO info at company level",
+        "Trusts and legal arrangements not covered",
+        "Nominee arrangements not adequately addressed"
+      ],
+      "recommendations": [
+        "Establish verified BO registry",
+        "Require companies to hold and update BO info",
+        "Extend requirements to trusts",
+        "Address nominee arrangements"
+      ]
+    },
+    "io_6": {
+      "title": "Financial Intelligence",
+      "rating": "moderate",
+      "score": 3,
+      "summary": "FRC has improved but analytical capability and dissemination need strengthening",
+      "strengths": [
+        "FRC receives high volume of STRs",
+        "Good IT infrastructure",
+        "Disseminates to relevant agencies"
+      ],
+      "weaknesses": [
+        "Limited strategic analysis",
+        "Timeliness of dissemination could improve",
+        "Feedback to reporting entities insufficient",
+        "Limited use of open source intelligence"
+      ],
+      "recommendations": [
+        "Enhance analytical capacity",
+        "Improve timeliness of dissemination",
+        "Develop feedback mechanisms",
+        "Integrate OSINT capabilities"
+      ]
+    },
+    "io_7": {
+      "title": "Investigation and Prosecution",
+      "rating": "low",
+      "score": 2,
+      "summary": "Very few ML convictions; TF cases limited",
+      "strengths": [
+        "Dedicated AML units in DCI and ODPP",
+        "Specialized training provided",
+        "Asset recovery mechanisms exist"
+      ],
+      "weaknesses": [
+        "Few ML convictions relative to risk",
+        "Cases often limited to predicate offenses",
+        "Parallel financial investigations rare",
+        "Limited use of FRC intelligence in investigations"
+      ],
+      "recommendations": [
+        "Prioritize ML investigations",
+        "Develop parallel financial investigation capability",
+        "Improve use of FRC intelligence",
+        "Enhance asset recovery outcomes"
+      ]
+    },
+    "io_8": {
+      "title": "Confiscation",
+      "rating": "moderate",
+      "score": 3,
+      "summary": "Confiscation framework exists but implementation limited",
+      "strengths": [
+        "Asset Recovery Agency established",
+        "Confiscation provisions in law",
+        "International cooperation on asset tracing"
+      ],
+      "weaknesses": [
+        "Few confiscation orders obtained",
+        "Asset management challenges",
+        "Limited proactive identification of assets"
+      ],
+      "recommendations": [
+        "Enhance ARA capacity",
+        "Improve asset management",
+        "Develop proactive identification mechanisms"
+      ]
+    }
+  },
+  "technical_compliance": {
+    "r_1": {
+      "title": "Assessing Risks and Applying Risk-Based Approach",
+      "rating": "largely_compliant",
+      "score": 2
+    },
+    "r_2": {
+      "title": "National Cooperation and Coordination",
+      "rating": "largely_compliant",
+      "score": 2
+    },
+    "r_3": {
+      "title": "Money Laundering Offence",
+      "rating": "compliant",
+      "score": 3
+    },
+    "r_4": {
+      "title": "Confiscation and Provisional Measures",
+      "rating": "largely_compliant",
+      "score": 2
+    },
+    "r_5": {
+      "title": "Terrorist Financing Offence",
+      "rating": "compliant",
+      "score": 3
+    },
+    "r_6": {
+      "title": "Targeted Financial Sanctions - TF",
+      "rating": "partially_compliant",
+      "score": 1
+    },
+    "r_7": {
+      "title": "Targeted Financial Sanctions - PF",
+      "rating": "partially_compliant",
+      "score": 1
+    },
+    "r_8": {
+      "title": "Non-Profit Organisations",
+      "rating": "largely_compliant",
+      "score": 2
+    },
+    "r_9": {
+      "title": "Financial Institution Secrecy Laws",
+      "rating": "compliant",
+      "score": 3
+    },
+    "r_10": {
+      "title": "Customer Due Diligence",
+      "rating": "largely_compliant",
+      "score": 2
+    },
+    "r_11": {
+      "title": "Record Keeping",
+      "rating": "compliant",
+      "score": 3
+    },
+    "r_12": {
+      "title": "Politically Exposed Persons",
+      "rating": "partially_compliant",
+      "score": 1
+    },
+    "r_13": {
+      "title": "Correspondent Banking",
+      "rating": "largely_compliant",
+      "score": 2
+    },
+    "r_14": {
+      "title": "Money or Value Transfer Services",
+      "rating": "largely_compliant",
+      "score": 2
+    },
+    "r_15": {
+      "title": "New Technologies",
+      "rating": "largely_compliant",
+      "score": 2
+    },
+    "r_16": {
+      "title": "Wire Transfers",
+      "rating": "largely_compliant",
+      "score": 2
+    },
+    "r_17": {
+      "title": "Reliance on Third Parties",
+      "rating": "largely_compliant",
+      "score": 2
+    },
+    "r_18": {
+      "title": "Internal Controls and Foreign Branches",
+      "rating": "largely_compliant",
+      "score": 2
+    },
+    "r_19": {
+      "title": "Higher Risk Countries",
+      "rating": "partially_compliant",
+      "score": 1
+    },
+    "r_20": {
+      "title": "Reporting of Suspicious Transactions",
+      "rating": "compliant",
+      "score": 3
+    },
+    "r_21": {
+      "title": "Tipping Off and Confidentiality",
+      "rating": "compliant",
+      "score": 3
+    },
+    "r_22": {
+      "title": "DNFBPs - Customer Due Diligence",
+      "rating": "partially_compliant",
+      "score": 1
+    },
+    "r_23": {
+      "title": "DNFBPs - Other Measures",
+      "rating": "partially_compliant",
+      "score": 1
+    },
+    "r_24": {
+      "title": "Transparency and Beneficial Ownership of Legal Persons",
+      "rating": "partially_compliant",
+      "score": 1
+    },
+    "r_25": {
+      "title": "Transparency and Beneficial Ownership of Legal Arrangements",
+      "rating": "non_compliant",
+      "score": 0
+    },
+    "r_26": {
+      "title": "Regulation and Supervision of Financial Institutions",
+      "rating": "largely_compliant",
+      "score": 2
+    },
+    "r_27": {
+      "title": "Powers of Supervisors",
+      "rating": "largely_compliant",
+      "score": 2
+    },
+    "r_28": {
+      "title": "Regulation and Supervision of DNFBPs",
+      "rating": "partially_compliant",
+      "score": 1
+    },
+    "r_29": {
+      "title": "Financial Intelligence Units",
+      "rating": "largely_compliant",
+      "score": 2
+    },
+    "r_30": {
+      "title": "Responsibilities of Law Enforcement and Investigative Authorities",
+      "rating": "largely_compliant",
+      "score": 2
+    },
+    "r_31": {
+      "title": "Powers of Law Enforcement and Investigative Authorities",
+      "rating": "largely_compliant",
+      "score": 2
+    },
+    "r_32": {
+      "title": "Cash Couriers",
+      "rating": "largely_compliant",
+      "score": 2
+    },
+    "r_33": {
+      "title": "Statistics",
+      "rating": "partially_compliant",
+      "score": 1
+    },
+    "r_34": {
+      "title": "Guidance and Feedback",
+      "rating": "largely_compliant",
+      "score": 2
+    },
+    "r_35": {
+      "title": "Sanctions",
+      "rating": "compliant",
+      "score": 3
+    },
+    "r_36": {
+      "title": "International Instruments",
+      "rating": "compliant",
+      "score": 3
+    },
+    "r_37": {
+      "title": "Mutual Legal Assistance",
+      "rating": "largely_compliant",
+      "score": 2
+    },
+    "r_38": {
+      "title": "Other Forms of Cooperation",
+      "rating": "largely_compliant",
+      "score": 2
+    },
+    "r_39": {
+      "title": "Extradition",
+      "rating": "largely_compliant",
+      "score": 2
+    },
+    "r_40": {
+      "title": "Other Forms of Cooperation",
+      "rating": "largely_compliant",
+      "score": 2
+    }
+  },
+  "obligations_for_institutions": {
+    "commercial_banks": {
+      "applicable_r": [
+        "r_1",
+        "r_9",
+        "r_10",
+        "r_11",
+        "r_12",
+        "r_13",
+        "r_14",
+        "r_15",
+        "r_16",
+        "r_17",
+        "r_18",
+        "r_19",
+        "r_20",
+        "r_21",
+        "r_26",
+        "r_27"
+      ],
+      "priority_actions": [
+        "Strengthen PEP screening (R12 partially compliant)",
+        "Enhance beneficial ownership verification (R24 partially compliant)",
+        "Improve higher-risk country measures (R19 partially compliant)"
+      ],
+      "compliance_deadline": "2024-12-31"
+    },
+    "microfinance_banks": {
+      "applicable_r": [
+        "r_1",
+        "r_9",
+        "r_10",
+        "r_11",
+        "r_12",
+        "r_14",
+        "r_16",
+        "r_18",
+        "r_20",
+        "r_21",
+        "r_26",
+        "r_27"
+      ],
+      "priority_actions": [
+        "Implement robust PEP screening",
+        "Strengthen transaction monitoring",
+        "Improve record keeping for mobile transactions"
+      ],
+      "compliance_deadline": "2024-12-31"
+    },
+    "forex_bureaus": {
+      "applicable_r": [
+        "r_1",
+        "r_9",
+        "r_10",
+        "r_11",
+        "r_14",
+        "r_16",
+        "r_20",
+        "r_21",
+        "r_26",
+        "r_27"
+      ],
+      "priority_actions": [
+        "Strengthen CDD for occasional customers",
+        "Implement transaction monitoring",
+        "Improve STR filing quality"
+      ],
+      "compliance_deadline": "2024-12-31"
+    },
+    "mobile_money_operators": {
+      "applicable_r": [
+        "r_1",
+        "r_9",
+        "r_10",
+        "r_11",
+        "r_12",
+        "r_14",
+        "r_15",
+        "r_16",
+        "r_18",
+        "r_20",
+        "r_21",
+        "r_26",
+        "r_27"
+      ],
+      "priority_actions": [
+        "Enhance agent network supervision",
+        "Strengthen CDD for low-value accounts",
+        "Implement real-time transaction monitoring",
+        "Address new technology risks (R15)"
+      ],
+      "compliance_deadline": "2024-12-31"
+    },
+    "dnfbps": {
+      "applicable_r": [
+        "r_22",
+        "r_23",
+        "r_24",
+        "r_25",
+        "r_28"
+      ],
+      "priority_actions": [
+        "Establish AML program",
+        "Implement CDD procedures",
+        "File STRs when required",
+        "Verify beneficial ownership"
+      ],
+      "compliance_deadline": "2024-12-31"
+    }
+  },
+  "extracted_obligations": [
+    {
+      "obligation_id": "mer-kenya-2022-r12-001",
+      "source_r": "r_12",
+      "title": "PEP Screening Requirements",
+      "text": "Financial institutions must identify and apply enhanced due diligence to domestic and foreign PEPs, their family members and close associates",
+      "applies_to": [
+        "commercial_banks",
+        "microfinance_banks",
+        "mobile_money_operators"
+      ],
+      "implementation_status": "partially_compliant",
+      "specific_requirements": [
+        "Obtain senior management approval for PEP relationships",
+        "Establish source of wealth and funds",
+        "Conduct enhanced ongoing monitoring",
+        "Document risk assessment for PEP customers"
+      ],
+      "regulatory_reference": "CBK AML Guidelines 2023, Section 4.3",
+      "priority": "high",
+      "deadline": "2024-12-31"
+    },
+    {
+      "obligation_id": "mer-kenya-2022-r24-001",
+      "source_r": "r_24",
+      "title": "Beneficial Ownership Verification",
+      "text": "Legal persons must maintain accurate and up-to-date beneficial ownership information, and FIs must verify BO when establishing business relationships",
+      "applies_to": [
+        "commercial_banks",
+        "microfinance_banks",
+        "forex_bureaus",
+        "mobile_money_operators",
+        "dnfbps"
+      ],
+      "implementation_status": "partially_compliant",
+      "specific_requirements": [
+        "Identify natural persons who ultimately own or control",
+        "Verify identity of beneficial owners",
+        "Understand ownership and control structure",
+        "Monitor and update BO information"
+      ],
+      "regulatory_reference": "Companies Act 2015, CBK AML Guidelines",
+      "priority": "high",
+      "deadline": "2024-12-31"
+    },
+    {
+      "obligation_id": "mer-kenya-2022-r20-001",
+      "source_r": "r_20",
+      "title": "Suspicious Transaction Reporting",
+      "text": "Financial institutions must report suspicious transactions to FRC promptly, without tipping off the customer",
+      "applies_to": [
+        "commercial_banks",
+        "microfinance_banks",
+        "forex_bureaus",
+        "mobile_money_operators",
+        "dnfbps"
+      ],
+      "implementation_status": "compliant",
+      "specific_requirements": [
+        "Report within 24 hours of suspicion",
+        "Use FRC online reporting system",
+        "Maintain confidentiality of report",
+        "Document internal investigation"
+      ],
+      "regulatory_reference": "Proceeds of Crime and Anti-Money Laundering Act, Section 44",
+      "priority": "high",
+      "deadline": "ongoing"
+    },
+    {
+      "obligation_id": "mer-kenya-2022-r10-001",
+      "source_r": "r_10",
+      "title": "Customer Due Diligence",
+      "text": "FIs must identify and verify customer identity, understand purpose and nature of business relationship",
+      "applies_to": [
+        "commercial_banks",
+        "microfinance_banks",
+        "forex_bureaus",
+        "mobile_money_operators"
+      ],
+      "implementation_status": "largely_compliant",
+      "specific_requirements": [
+        "Identify customer and verify identity",
+        "Identify beneficial owner",
+        "Understand purpose of relationship",
+        "Conduct ongoing due diligence"
+      ],
+      "regulatory_reference": "CBK AML Guidelines 2023, Section 3",
+      "priority": "high",
+      "deadline": "ongoing"
+    }
+  ],
+  "penalties_for_non_compliance": {
+    "administrative": [
+      {
+        "penalty": "fine",
+        "max_amount_kes": 10000000,
+        "description": "Up to KES 10M for institutions"
+      },
+      {
+        "penalty": "license_restriction",
+        "description": "Restrictions on business activities"
+      },
+      {
+        "penalty": "suspension_of_operations",
+        "description": "Temporary suspension of specific operations"
+      }
+    ],
+    "criminal": [
+      {
+        "penalty": "imprisonment",
+        "max_years": 14,
+        "description": "Up to 14 years for ML offenses"
+      },
+      {
+        "penalty": "confiscation_of_proceeds",
+        "description": "Confiscation of proceeds of crime"
+      }
+    ],
+    "regulatory": [
+      {
+        "penalty": "public_censure",
+        "description": "Public naming by regulator"
+      },
+      {
+        "penalty": "mandatory_remediation",
+        "description": "Required remediation program"
+      },
+      {
+        "penalty": "increased_supervision",
+        "description": "Enhanced regulatory oversight"
+      }
+    ]
+  },
+  "related_documents": [
+    {
+      "id": "cbk-aml-guidelines-2023",
+      "title": "CBK Anti-Money Laundering Guidelines 2023",
+      "relationship": "implements",
+      "url": "https://www.centralbank.go.ke/uploads/banking_sector_supervision/aml_guidelines_2023.pdf"
+    },
+    {
+      "id": "fatf-rec-kenya-2022",
+      "title": "FATF Follow-Up Report Kenya 2022",
+      "relationship": "follow_up",
+      "url": ""
+    },
+    {
+      "id": "pocamla-2009",
+      "title": "Proceeds of Crime and Anti-Money Laundering Act 2009",
+      "relationship": "legal_basis",
+      "url": ""
+    }
+  ],
+  "data_quality": {
+    "extraction_date": "2026-05-05T03:38:18.929817",
+    "extracted_by": "manual",
+    "confidence": "high",
+    "verification_status": "pending_review",
+    "last_updated": "2026-05-05T03:38:18.929830",
+    "notes": "Based on publicly available summary of Kenya 2022 MER. Full document review needed for complete extraction."
+  }
+}

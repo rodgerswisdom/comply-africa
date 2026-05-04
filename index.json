@@ -1,0 +1,36 @@
+{
+  "project": "ComplyAfrica",
+  "description": "Open-source regulatory compliance corpus for African financial institutions",
+  "version": "0.1.0",
+  "last_updated": "2026-05-05T03:38:41.909871",
+  "regulations": [
+    {
+      "id": "fatf-mer-kenya-2022",
+      "country": "KE",
+      "regulator": "FATF",
+      "title": "Anti-Money Laundering and Counter-Terrorist Financing Measures - Kenya",
+      "type": "mutual_evaluation_report",
+      "file": "regulations/kenya/fatf/fatf-mer-kenya-2022.json",
+      "status": "populated",
+      "confidence": "high",
+      "obligations_count": 4
+    }
+  ],
+  "statistics": {
+    "total_regulations": 1,
+    "total_obligations": 4,
+    "countries": [
+      "KE"
+    ],
+    "regulators": [
+      "FATF"
+    ],
+    "institution_types_covered": [
+      "commercial_banks",
+      "microfinance_banks",
+      "forex_bureaus",
+      "mobile_money_operators",
+      "dnfbps"
+    ]
+  }
+}
